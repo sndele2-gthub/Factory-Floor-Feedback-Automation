@@ -20,7 +20,7 @@ Prior to this system's implementation, factory floor feedback faced significant 
 
 ---
 
-## Our Solution: An Intelligent & Automated System ✅
+## My Solution: An Intelligent & Automated System ✅
 This system was developed to directly tackle the aforementioned challenges by integrating Python, Microsoft Power Automate, and Excel.
 
 ### 1. Intelligent Backend (Python Flask API) 🧠
@@ -51,8 +51,8 @@ Excel serves as the central data repository and provides dynamic, actionable vie
 ## Visual Showcase ✨
 See the system's impact and mechanics brought to life:
 
-* * [The Challenge (GIF)](./presentation/gifs/slide1_visual.gif)
-* [Our Solution (GIF)](./presentation/gifs/slide2_visual.gif)
+* [The Challenge (GIF)](./presentation/gifs/slide1_visual.gif)
+* [My Solution (GIF)](./presentation/gifs/slide2_visual.gif)
 * [The Impact (GIF)](./presentation/gifs/slide3_visual.gif)
 
 ---
@@ -99,6 +99,8 @@ The system is designed with scalability in mind. Potential future enhancements c
 ---
 
 ## About the Author 👤
-**\[Sean Ndele\]**
-\[Link to your LinkedIn Profile (e.g., `[LinkedIn](https://www.linkedin.com/in/your-profile/)`)\]
+**Sean Ndele**
 
+This project was conceived, developed, and implemented by me alone, showcasing end-to-end expertise in Python backend development, cloud automation, and data management.
+
+[Link to your LinkedIn Profile (e.g., `[LinkedIn](https://www.linkedin.com/in/your-profile/)`)]
