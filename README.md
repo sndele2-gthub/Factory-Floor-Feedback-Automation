@@ -1,8 +1,9 @@
-#Automated Factory Floor Feedback System ✨
-Overview 🚀
+**#Automated Factory Floor Feedback System ✨**
+
+**Overview 🚀**
 An automated system transforming factory floor feedback. It intelligently classifies, prioritizes, and manages critical operational insights, bridging the communication gap between employees and leadership to drive cross-functional collaboration. This project demonstrates an end-to-end solution combining custom backend logic, cloud automation, and dynamic data management.
 
-The Challenge: Before Automation 😔
+**The Challenge: Before Automation 😔**
 Prior to this system's implementation, factory floor feedback faced significant bottlenecks, leading to inefficiencies and missed opportunities:
 
 Lack of Formal Feedback Channels: No structured or official way for floor staff to submit feedback to different departments; reliance on informal methods like word-of-mouth or unmanaged emails.
