@@ -1,0 +1,94 @@
+import React from 'react';
+
+const Slide2Visual = () => {
+  return (
+    <div className="relative flex flex-col items-center justify-center min-h-[400px] md:min-h-[500px] lg:min-h-[600px] p-6 bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl shadow-lg border border-indigo-200 overflow-hidden">
+      {/* Background Grid Pattern */}
+      <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
+      
+      {/* Title */}
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-800 mb-8 text-center drop-shadow-sm">
+        Our Solution: Automated Feedback System 🚀
+      </h2>
+
+      {/* Main Funnel Container */}
+      <div className="relative flex flex-col items-center justify-center w-full max-w-sm md:max-w-md lg:max-w-xl bg-white bg-opacity-80 rounded-2xl p-6 md:p-8 lg:p-10 shadow-xl border border-blue-200 z-10">
+        {/* Input - Chaotic Top */}
+        <div className="w-full bg-red-100 border-2 border-red-300 rounded-t-xl p-4 flex justify-around items-center space-x-2 relative z-20 shadow-md">
+          <span className="text-3xl">💬</span>
+          <span className="text-xl">📧</span>
+          <span className="text-2xl">📝</span>
+          <span className="text-lg">📢</span>
+          <p className="absolute -top-3 left-1/2 -translate-x-1/2 bg-white px-2 py-0.5 text-xs text-gray-500 rounded-full shadow-sm">Raw Input</p>
+        </div>
+
+        {/* Funnel Body */}
+        <div className="relative w-[80%] md:w-[70%] lg:w-[60%] bg-blue-500 bg-opacity-10 py-8 md:py-12 lg:py-16 -mt-2 rounded-b-full shadow-inner flex flex-col items-center">
+            {/* Arrows Down */}
+            <span className="text-blue-500 text-opacity-60 text-4xl mb-2">↓</span>
+            <span className="text-blue-500 text-opacity-60 text-4xl mb-2">↓</span>
+            
+            {/* AI Brain Icon */}
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-blue-500 text-white rounded-full p-3 md:p-4 shadow-lg border-2 border-blue-700">
+                <span className="text-2xl md:text-3xl">🧠</span> {/* Brain icon */}
+            </div>
+            {/* Logic/Processing Text */}
+            <p className="text-xs text-blue-800 font-semibold absolute -bottom-3 left-1/2 -translate-x-1/2 bg-white px-2 py-0.5 rounded-full shadow-sm">Processing & Algorithms</p>
+        </div>
+
+        {/* Output - Organized Bottom */}
+        <div className="w-full bg-green-100 border-2 border-green-300 rounded-b-xl p-4 flex justify-around items-center space-x-4 mt-[-20px] relative z-20 shadow-md">
+            <div className="flex flex-col items-center">
+                <span className="text-2xl text-red-600">🚨</span>
+                <p className="text-xs font-semibold text-gray-700">Critical</p>
+            </div>
+            <div className="flex flex-col items-center">
+                <span className="text-2xl text-orange-500">🔥</span>
+                <p className="text-xs font-semibold text-gray-700">High</p>
+            </div>
+            <div className="flex flex-col items-center">
+                <span className="text-2xl text-yellow-500">⚠️</span>
+                <p className="text-xs font-semibold text-gray-700">Medium</p>
+            </div>
+            <div className="flex flex-col items-center">
+                <span className="text-2xl text-green-600">✅</span>
+                <p className="text-xs font-semibold text-gray-700">Minimal</p>
+            </div>
+            <p className="absolute -bottom-3 left-1/2 -translate-x-1/2 bg-white px-2 py-0.5 text-xs text-gray-500 rounded-full shadow-sm">Organized Output</p>
+        </div>
+      </div>
+
+      {/* Small Icons / Key Features */}
+      <div className="flex flex-wrap justify-center gap-4 md:gap-6 mt-10">
+        <div className="flex flex-col items-center text-gray-700">
+          <span className="text-3xl md:text-4xl text-purple-600 mb-1">🧠</span>
+          <p className="text-xs md:text-sm font-semibold text-center">Intelligent Classification</p>
+        </div>
+        <div className="flex flex-col items-center text-gray-700">
+          <span className="text-3xl md:text-4xl text-blue-600 mb-1">⚡</span>
+          <p className="text-xs md:text-sm font-semibold text-center">Dynamic Prioritization</p>
+        </div>
+        <div className="flex flex-col items-center text-gray-700">
+          <span className="text-3xl md:text-4xl text-green-600 mb-1">🔎</span>
+          <p className="text-xs md:text-sm font-semibold text-center">Duplicate Detection</p>
+        </div>
+        <div className="flex flex-col items-center text-gray-700">
+          <span className="text-3xl md:text-4xl text-teal-600 mb-1">📊</span>
+          <p className="text-xs md:text-sm font-semibold text-center">Real-time Insights</p>
+        </div>
+      </div>
+
+      {/* Tailwind CSS grid pattern for background - defined inline for this immersive */}
+      <style>{`
+        .bg-grid-pattern {
+          background-image: linear-gradient(to right, rgba(0,0,0,.05) 1px, transparent 1px),
+                            linear-gradient(to bottom, rgba(0,0,0,.05) 1px, transparent 1px);
+          background-size: 20px 20px;
+        }
+      `}</style>
+    </div>
+  );
+};
+
+export default Slide2Visual;
+
