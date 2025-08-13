@@ -99,6 +99,6 @@ The system is designed with scalability in mind. Potential future enhancements c
 ---
 
 ## About the Author 👤
-**\[Your Name\]**
+**\[Sean Ndele\]**
 \[Link to your LinkedIn Profile (e.g., `[LinkedIn](https://www.linkedin.com/in/your-profile/)`)\]
-\[Optional: Your personal website or other relevant links]
+
