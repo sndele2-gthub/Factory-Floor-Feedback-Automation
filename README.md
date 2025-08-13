@@ -51,7 +51,7 @@ Excel serves as the central data repository and provides dynamic, actionable vie
 ## Visual Showcase ✨
 See the system's impact and mechanics brought to life:
 
-* [The Challenge (GIF)](./presentation/gifs/slide1_visual.gif)
+* * [The Challenge (GIF)](./presentation/gifs/slide1_visual.gif)
 * [Our Solution (GIF)](./presentation/gifs/slide2_visual.gif)
 * [The Impact (GIF)](./presentation/gifs/slide3_visual.gif)
 
